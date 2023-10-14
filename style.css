@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home, #about, #facility, #gallery, #team, #contact{
+    scroll-margin-top: 5rem;
+}
+.abright{
+    background-color: #17A2B8;
+}
+.homepage{
+    width: 100%;
+    min-height: 47rem;
+    background-image: url(./images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 16rem 0;
+}
+.jumbotron h1{
+    font-size: 40px;
+}
+.table input{
+    border: 2px solid black;
+}
+.mail i{
+    background-color: #CC9966; 
+    color: rgb(255, 255, 255); 
+    border-radius: 50%;
+}
